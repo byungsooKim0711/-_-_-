@@ -41,7 +41,7 @@
 
 
 
-## 📌Colud 환경에서 Kafka Consumer 사용하기
+### Colud 환경에서 Kafka Consumer 사용하기
 
 - 단순 재시작 등으로 Partition Rebalance가 발생하는 현상을 방지하기 위해
   - group.instance.id(static-membership)를 명시 (컨슈머 인스턴스 별로 고유값 명시)
@@ -54,7 +54,7 @@
 
 
 
-## 📌앞으로의 Kafka
+### 앞으로의 Kafka
 
 - [Multi-level Rack Awareness](https://cwiki.apache.org/confluence/display/KAFKA/KIP-879%3A+Multi-level+Rack+Awareness)
 - [Rack-aware Partition Assignment](https://cwiki.apache.org/confluence/display/KAFKA/KIP-881:+Rack-aware+Partition+Assignment+for+Kafka+Consumers)
